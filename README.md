@@ -7,5 +7,5 @@ This paper is an assignment of the course IT-Applications at the University of A
   * Paper (pdf) in English
   * Presentation (ppt) in German
 * [Source](/src)
-  * [Benchmark.java](/ArraySortBenchmark.java)
+  * [Benchmark.java](src/main/java/benchmark/ArraySortBenchmark.java)
   *  ...

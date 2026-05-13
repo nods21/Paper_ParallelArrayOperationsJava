@@ -1,6 +1,9 @@
 package benchmark;
+
 import org.openjdk.jmh.annotations.*;
 
+import java.util.Arrays;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 @State(Scope.Thread)
@@ -14,9 +17,25 @@ public class ArraySortBenchmark
     @Param({"10", "100", "1000", "10000", "1000000"})
     private int size;
 
-    @Benchmark
-    public void benchmarkSequentialSort()
-    {
+    private int[] sortingArray;
 
+    private final int RANDOM_SEED = 42;
+
+
+    //Generate a new array before every benchmark call
+    @Setup(Level.Invocation)
+    public void setup() {
+        //Use a final seed for comparable results of sequential and parallel sort
+        sortingArray = new Random(RANDOM_SEED).ints(size).toArray();
+    }
+
+    @Benchmark
+    public void benchmarkSequentialSort() {
+        Arrays.sort(sortingArray);
+    }
+
+    @Benchmark
+    public void benchmarkParallelSort() {
+        Arrays.parallelSort(sortingArray);
     }
 }

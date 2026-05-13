@@ -9,7 +9,7 @@
 /dataSources/
 /dataSources.local.xml
 
-# GIT IGNORES for MAVEN
+# GIT IGNORES for MAVEN template of github
 target/
 pom.xml.tag
 pom.xml.releaseBackup
