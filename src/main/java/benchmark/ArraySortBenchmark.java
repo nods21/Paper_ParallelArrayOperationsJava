@@ -1,6 +1,6 @@
+package benchmark;
 import org.openjdk.jmh.annotations.*;
-import java.util.Arrays;
-import java.util.Random;
+
 import java.util.concurrent.TimeUnit;
 
 @State(Scope.Thread)
@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 @Fork(1)
 public class ArraySortBenchmark
 {
-    @Param({10, 100, 1000, 10000, 1000000})
+    @Param({"10", "100", "1000", "10000", "1000000"})
     private int size;
 
     @Benchmark
