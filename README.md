@@ -6,6 +6,7 @@ This paper is an assignment of the course IT-Applications at the University of A
 * [Documents](/Documents)
   * Paper (pdf) in English
   * Presentation (ppt) in German
+* [Results of benchmark](/benchmark_results) further info in [info_benchmark.md](/benchmark_results/info_benchmark.md)
 * [Source](/src)
-  * [Benchmark.java](src/main/java/benchmark/ArraySortBenchmark.java)
+  * [Benchmark of parallelSort() and sort()](src/main/java/benchmark/ArraySortBenchmark.java)
   *  ...
