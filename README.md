@@ -4,6 +4,7 @@ This paper is an assignment of the course IT-Applications at the University of A
 
 ## Table of contents
 * [Documents](/Documents)
+  * [figures of paper](/Documents/paper_figures)
   * Paper (pdf) in English
   * Presentation (ppt) in German
 * [Results of benchmark](/benchmark_results) further info in [info_benchmark.md](/benchmark_results/info_benchmark.md)
