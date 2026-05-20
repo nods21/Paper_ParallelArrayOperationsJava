@@ -22,6 +22,4 @@ public class ArraysParallelSetAll {
         //input with lambda expression
         Arrays.parallelSetAll(exampleArray, (x) -> x * x);
     }
-
-
 }
