@@ -2,3 +2,4 @@
 + Code snipsel einmal am Ende auf Github verlinken? 
 + Wie packe ich am besten Code in mein Paper?
 + Kopfzeile drin lassen? 
++ Sekundär zitate, original quelle eher zitieren?
