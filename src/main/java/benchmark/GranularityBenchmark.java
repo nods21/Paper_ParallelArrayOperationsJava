@@ -10,11 +10,11 @@ import java.util.concurrent.TimeUnit;
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 @Warmup(iterations = 3, time = 1)
-@Measurement(iterations = 5, time = 1)
+@Measurement(iterations = 10, time = 1)
 @Fork(1)
-public class ArraySortBenchmark
+public class GranularityBenchmark
 {
-    @Param({"10", "1000", "10000", "100000", "10000000"})
+    @Param({"1000", "2000", "3000", "4090", "4100", "5000", "6000", "7000"})
     private int size;
 
     private int[] sortingArray;
@@ -30,11 +30,6 @@ public class ArraySortBenchmark
                 new Random(RANDOM_SEED)
                 .ints(size)
                 .toArray();
-    }
-
-    @Benchmark
-    public void benchmarkSequentialSort() {
-        Arrays.sort(sortingArray);
     }
 
     @Benchmark

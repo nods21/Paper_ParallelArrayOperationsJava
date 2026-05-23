@@ -3,3 +3,6 @@
 + Wie packe ich am besten Code in mein Paper?
 + Kopfzeile drin lassen? 
 + Sekundär zitate, original quelle eher zitieren?
++ Zählt eine Tablle als Grafik oder eher als Graphen darstellen?
++ Eher Graph oder Tabelle?
++ Conclusion mit Unterpunkten key takeaways und future work
