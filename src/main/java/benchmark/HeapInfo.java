@@ -1,3 +1,5 @@
+package benchmark;
+
 public class HeapInfo {
     public static void main(String[] args) {
         HeapInfo.PrintHeapInfo();
