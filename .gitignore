@@ -1,3 +1,6 @@
+# OWN GIT IGNORES
+questions_lauer.md
+
 # GIT IGNORES for MAVEN template of github
 target/
 pom.xml.tag
